@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cc8cdc-58c6-4907-b924-e6a13ef0a7bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AI-Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI-Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAlgorithms/algorithms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAlgorithms/searchType.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchAlgorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAlgorithms/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchAlgorithms/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAlgorithms/graph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +15,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AI_Projects$graph.coverage" NAME="graph Coverage Results" MODIFIED="1544990319154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms" />
+    <SUITE FILE_PATH="coverage/AI_Projects$graph.coverage" NAME="graph Coverage Results" MODIFIED="1544991375237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms" />
+    <SUITE FILE_PATH="coverage/AI_Projects$algorithms.coverage" NAME="algorithms Coverage Results" MODIFIED="1544991460008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2005091763">
@@ -25,38 +28,63 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="py" value="764" />
+          <entry key="py" value="992" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="764" />
+          <entry key="Python" value="992" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="-18">
+              <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
               <folding>
-                <marker date="1544990344854" expanded="true" signature="13:18" ph="..." />
-                <marker date="1544990344854" expanded="true" signature="487:570" ph="..." />
+                <marker date="1544991375227" expanded="true" signature="13:18" ph="..." />
+                <marker date="1544991375227" expanded="true" signature="487:570" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <marker date="1544991459388" expanded="true" signature="97:102" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SearchAlgorithms/searchType.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+              <folding>
+                <marker date="1544991136954" expanded="true" signature="47:52" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,11 +102,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SearchAlgorithms/Algorithms/graph.py" />
+        <option value="$PROJECT_DIR$/SearchAlgorithms/searchType.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/graph.py" />
+        <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms.py" />
       </list>
     </option>
   </component>
@@ -89,10 +122,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="151" />
-    <option name="width" value="940" />
-    <option name="height" value="789" />
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,7 +176,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.algorithms">
+    <configuration name="algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI-Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SearchAlgorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SearchAlgorithms/algorithms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AI-Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,8 +221,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.graph" />
+      <item itemvalue="Python.algorithms" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.algorithms" />
         <item itemvalue="Python.graph" />
       </list>
     </recent_temporary>
@@ -197,11 +256,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,11 +281,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="-18">
+          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding>
-            <marker date="1544990344854" expanded="true" signature="13:18" ph="..." />
-            <marker date="1544990344854" expanded="true" signature="487:570" ph="..." />
+            <marker date="1544991375227" expanded="true" signature="13:18" ph="..." />
+            <marker date="1544991375227" expanded="true" signature="487:570" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/searchType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <marker date="1544991136954" expanded="true" signature="47:52" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1544991459388" expanded="true" signature="97:102" ph="..." />
           </folding>
         </state>
       </provider>
