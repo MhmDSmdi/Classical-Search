@@ -1,8 +1,8 @@
 class AlgorithmSearch:
     def __init__(self, is_graph_search=True):
         self.is_graph_search = is_graph_search
-        self.visited_set = {}
-        self.expanded_set = {}
+        self.visited_list = []
+        self.expanded_list = []
         self.memory_usage = 0
         self.final_state = None
 
@@ -12,7 +12,7 @@ class AlgorithmSearch:
                 return False
 
         if self.is_graph_search:
-            for s in self.expanded_set:
+            for s in self.expanded_list:
                 if s is state:
                     return False
 
@@ -22,8 +22,8 @@ class AlgorithmSearch:
         pass
 
     def run(self, problem):
-        self.visited_set.clear()
-        self.expanded_set.clear()
+        self.visited_list.clear()
+        self.expanded_list.clear()
         self.final_state = self.search()
         if self.final_state is None:
             print("Access to final state impossible!")
@@ -51,8 +51,8 @@ class AlgorithmSearch:
         return self.memory_usage
 
     def visited_set_size(self):
-        return len(self.visited_set)
+        return len(self.visited_list)
 
     def expanded_set_size(self):
-        return len(self.expanded_set)
+        return len(self.expanded_list)
 
