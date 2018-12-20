@@ -13,3 +13,4 @@ class State:
 
     def equal_state(self, state):
         pass
+
