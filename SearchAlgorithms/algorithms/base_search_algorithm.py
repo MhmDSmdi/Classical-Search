@@ -44,6 +44,14 @@ class AlgorithmSearch:
         else:
             return None
 
+    def set_graph_search(self):
+        self.is_graph_search = True
+        return self
+
+    def set_tree_search(self):
+        self.is_graph_search = False
+        return self
+
     def get_final_state(self):
         return self.final_state
 
