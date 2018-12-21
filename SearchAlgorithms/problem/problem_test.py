@@ -1,4 +1,4 @@
-from SearchAlgorithms.algorithms.base_problem import Problem
+from SearchAlgorithms.problem.base_problem import Problem
 from SearchAlgorithms.graph.state import State
 from SearchAlgorithms.graph.action import Action
 from SearchAlgorithms.algorithms.bfs import BFS_SEARCH
