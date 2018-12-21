@@ -1,7 +1,7 @@
-from SearchAlgorithms.algorithms.base_search_algorithm import AlgorithmSearch
+from SearchAlgorithms.algorithms.base_search_algorithm import SearchAlgorithm
 
 
-class DFS_Search(AlgorithmSearch):
+class DFS_SearchAlgorithm(SearchAlgorithm):
     def search(self, problem):
         initial_state = problem.get_initial_state()
         if problem.is_final_state(initial_state):

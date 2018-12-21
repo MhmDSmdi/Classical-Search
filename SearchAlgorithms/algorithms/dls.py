@@ -1,7 +1,7 @@
-from SearchAlgorithms.algorithms.base_search_algorithm import AlgorithmSearch
+from SearchAlgorithms.algorithms.base_search_algorithm import SearchAlgorithm
 
 
-class DLS_Search(AlgorithmSearch):
+class DLS_SearchAlgorithm(SearchAlgorithm):
     def __init__(self, limited_depth):
         super().__init__()
         self.limited_depth = limited_depth

@@ -1,4 +1,4 @@
-class AlgorithmSearch:
+class SearchAlgorithm:
     def __init__(self):
         self.is_graph_search = True
         self.visited_list = []
