@@ -1,6 +1,6 @@
 class AlgorithmSearch:
-    def __init__(self, is_graph_search=True):
-        self.is_graph_search = is_graph_search
+    def __init__(self):
+        self.is_graph_search = True
         self.visited_list = []
         self.expanded_list = []
         self.memory_usage = 0

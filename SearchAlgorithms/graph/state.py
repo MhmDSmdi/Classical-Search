@@ -1,5 +1,5 @@
 class State:
-    def __init__(self, state_name, total_cost, parent_state, action_description, distance=0):
+    def __init__(self, state_name, total_cost, parent_state, action_description, distance):
         self.total_cost = total_cost
         self.parent_state = parent_state
         self.action_desc = action_description
