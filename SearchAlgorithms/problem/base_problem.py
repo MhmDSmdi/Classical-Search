@@ -1,4 +1,5 @@
 class Problem:
+
     def get_initial_state(self):
         pass
 
@@ -6,4 +7,7 @@ class Problem:
         pass
 
     def get_final_states(self):
+        pass
+
+    def heuristic_cost(self, state):
         pass

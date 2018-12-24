@@ -1,7 +1,7 @@
 from SearchAlgorithms.problem.base_problem import Problem
 from SearchAlgorithms.graph.state import State
 from SearchAlgorithms.graph.action import Action
-from SearchAlgorithms.algorithms.uniform_cost import Uniform_Cost
+from SearchAlgorithms.algorithms.a_star import A_Star
 from SearchAlgorithms.algorithms.iddfs import IDDFS_SearchAlgorithm
 
 
@@ -15,6 +15,9 @@ class Problem_test(Problem):
 
     def get_final_states(self):
         return ProblemState(6)
+
+    def heuristic_cost(self, state):
+        return 0
 
 
 class ProblemState(State):
@@ -53,7 +56,7 @@ class ProblemState(State):
 
 if __name__ == '__main__':
     test = Problem_test()
-    search_algo = Uniform_Cost().set_graph_search()
+    search_algo = A_Star().set_graph_search()
     search_algo.search(test)
 
     for i in search_algo.get_best_path():
