@@ -28,19 +28,19 @@ class ProblemState(State):
     def action_list(self):
         action_list = []
         if self.state_name is 1:
-            action_list.append(Action(ProblemState(2, self)))
-            action_list.append(Action(ProblemState(3, self)))
+            action_list.append(Action(ProblemState(name=2, parent=self)))
+            action_list.append(Action(ProblemState(name=3, parent=self)))
         elif self.state_name is 2:
-            action_list.append(Action(ProblemState(4, self)))
-            action_list.append(Action(ProblemState(7, self)))
+            action_list.append(Action(ProblemState(name=4, parent=self)))
+            action_list.append(Action(ProblemState(name=7, parent=self)))
         elif self.state_name is 3:
-            action_list.append(Action(ProblemState(4, self)))
-            action_list.append(Action(ProblemState(5, self)))
+            action_list.append(Action(ProblemState(name=4, parent=self)))
+            action_list.append(Action(ProblemState(name=5, parent=self)))
         elif self.state_name is 4:
-            action_list.append(Action(ProblemState(6, self)))
-            action_list.append(Action(ProblemState(7, self)))
+            action_list.append(Action(ProblemState(name=6, parent=self)))
+            action_list.append(Action(ProblemState(name=7, parent=self)))
         elif self.state_name is 5:
-            action_list.append(Action(ProblemState(6, self)))
+            action_list.append(Action(ProblemState(name=6, parent=self)))
 
         return action_list
 
