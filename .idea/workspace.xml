@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cc8cdc-58c6-4907-b924-e6a13ef0a7bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAlgorithms/algorithms/simulated_annealing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchAlgorithms/problem/base_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAlgorithms/problem/base_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchAlgorithms/algorithms/base_search_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAlgorithms/algorithms/base_search_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AI_Projects$graph.coverage" NAME="graph Coverage Results" MODIFIED="1544991375237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms" />
     <SUITE FILE_PATH="coverage/AI_Projects$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1545374034469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms/algorithms" />
-    <SUITE FILE_PATH="coverage/AI_Projects$problem_test.coverage" NAME="problem_test Coverage Results" MODIFIED="1545663985108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms/algorithms" />
+    <SUITE FILE_PATH="coverage/AI_Projects$problem_test.coverage" NAME="problem_test Coverage Results" MODIFIED="1545835280012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms/algorithms" />
     <SUITE FILE_PATH="coverage/AI_Projects$dls.coverage" NAME="dls Coverage Results" MODIFIED="1545378926299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms/algorithms" />
     <SUITE FILE_PATH="coverage/AI_Projects$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1545322399934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms/algorithms" />
     <SUITE FILE_PATH="coverage/AI_Projects$algorithms.coverage" NAME="algorithms Coverage Results" MODIFIED="1544991460008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchAlgorithms" />
@@ -25,68 +26,159 @@
     <session id="-2005091763">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="47" />
+          <entry key="py" value="64" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="47" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="52" />
-          <entry key="py" value="7168" />
+          <entry key="py" value="8467" />
           <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="89" />
-          <entry key="Python" value="7168" />
+          <entry key="Python" value="8467" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-                <marker date="1545663982983" expanded="true" signature="306:307" ph="..." />
-                <marker date="1545663982983" expanded="true" signature="340:386" ph="..." />
-                <marker date="1545663982983" expanded="true" signature="603:604" ph="..." />
-                <marker date="1545663982983" expanded="true" signature="603:608" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="410">
+                  <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#57#0" expanded="true" />
+                    <marker date="1545834613401" expanded="true" signature="385:386" ph="..." />
+                    <marker date="1545834613401" expanded="true" signature="419:465" ph="..." />
+                    <marker date="1545834613401" expanded="true" signature="682:683" ph="..." />
+                    <marker date="1545834613401" expanded="true" signature="682:687" ph="..." />
+                    <marker date="1545834613401" expanded="true" signature="2156:2190" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph/state.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/base_search_algorithm.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+                  <folding>
+                    <marker date="1545834652626" expanded="true" signature="22:27" ph="..." />
+                    <marker date="1545834652626" expanded="true" signature="1275:1426" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/simulated_annealing.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="355">
+                  <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#77#0" expanded="true" />
+                    <marker date="1545835276834" expanded="true" signature="511:1665" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/random.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="197">
+                  <caret line="199" selection-start-line="199" selection-end-line="199" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/bfs.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph/action.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="3" column="23" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/uniform_cost.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/bfs.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,11 +213,12 @@
         <option value="$PROJECT_DIR$/SearchAlgorithms/graph/state.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/dls.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/iddfs.py" />
-        <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/base_search_algorithm.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/uniform_cost.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/problem/base_problem.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py" />
         <option value="$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py" />
+        <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/base_search_algorithm.py" />
+        <option value="$PROJECT_DIR$/SearchAlgorithms/algorithms/simulated_annealing.py" />
       </list>
     </option>
   </component>
@@ -135,10 +228,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="950" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -352,10 +445,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="960" height="1055" extended-state="4" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2986871" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15048026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,44 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <marker date="1545374111611" expanded="true" signature="13:18" ph="..." />
-            <marker date="1545374111611" expanded="true" signature="165:192" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/dls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/bfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <marker date="1545383360845" expanded="true" signature="123:128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/iddfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <marker date="1545383360825" expanded="true" signature="125:130" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/dfs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -468,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <marker date="1545663760879" expanded="true" signature="15:20" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,51 +530,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/iddfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/dls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph/state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
           <folding>
-            <marker date="1545662839396" expanded="true" signature="383:388" ph="..." />
+            <element signature="e#0#57#0" expanded="true" />
+            <marker date="1545834613401" expanded="true" signature="385:386" ph="..." />
+            <marker date="1545834613401" expanded="true" signature="419:465" ph="..." />
+            <marker date="1545834613401" expanded="true" signature="682:683" ph="..." />
+            <marker date="1545834613401" expanded="true" signature="682:687" ph="..." />
+            <marker date="1545834613401" expanded="true" signature="2156:2190" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/base_search_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <marker date="1545662827513" expanded="true" signature="22:27" ph="..." />
-            <marker date="1545662827513" expanded="true" signature="1242:1393" ph="..." />
+            <marker date="1545834652626" expanded="true" signature="22:27" ph="..." />
+            <marker date="1545834652626" expanded="true" signature="1275:1426" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/graph/state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <marker date="1545380213727" expanded="true" signature="12:17" ph="..." />
-            <marker date="1545380213727" expanded="true" signature="489:515" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/a_star.py">
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/bfs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/problem/problem_test.py">
+    <entry file="file://$PROJECT_DIR$/SearchAlgorithms/algorithms/simulated_annealing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        <state relative-caret-position="355">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
-            <marker date="1545663982983" expanded="true" signature="306:307" ph="..." />
-            <marker date="1545663982983" expanded="true" signature="340:386" ph="..." />
-            <marker date="1545663982983" expanded="true" signature="603:604" ph="..." />
-            <marker date="1545663982983" expanded="true" signature="603:608" ph="..." />
+            <element signature="e#0#77#0" expanded="true" />
+            <marker date="1545835276834" expanded="true" signature="511:1665" ph="..." />
           </folding>
         </state>
       </provider>

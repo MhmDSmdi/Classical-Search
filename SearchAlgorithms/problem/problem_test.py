@@ -3,6 +3,7 @@ from SearchAlgorithms.graph.state import State
 from SearchAlgorithms.graph.action import Action
 from SearchAlgorithms.algorithms.a_star import A_Star
 from SearchAlgorithms.algorithms.iddfs import IDDFS_SearchAlgorithm
+from SearchAlgorithms.algorithms.simulated_annealing import SimulatedAnnealing
 
 
 class Problem_test(Problem):
@@ -56,8 +57,14 @@ class ProblemState(State):
 
 if __name__ == '__main__':
     test = Problem_test()
-    search_algo = A_Star().set_graph_search()
-    search_algo.search(test)
 
-    for i in search_algo.get_best_path():
-        print(i)
+    def cost(s):
+        return s.total_cost
+
+    search_algo = SimulatedAnnealing(cost).set_graph_search()
+    search_algo.search(test)
+    if search_algo.get_best_path() is not None:
+        for i in search_algo.get_best_path():
+            print(i)
+    else:
+        print("An Error occur")

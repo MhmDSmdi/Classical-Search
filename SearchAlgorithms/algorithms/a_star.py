@@ -17,6 +17,7 @@ class A_Star(SearchAlgorithm):
     def search(self, problem):
         initial_state = problem.get_initial_state()
         if problem.is_final_state(initial_state):
+            self.final_state = initial_state
             return initial_state
 
         open_list = [initial_state]

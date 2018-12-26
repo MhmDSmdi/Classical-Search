@@ -30,6 +30,7 @@ class SearchAlgorithm:
 
     def get_best_path(self):
         if self.final_state is None:
+            print("Return None")
             return None
         path = []
         state = self.final_state
